@@ -1,4 +1,3 @@
-
 //en la perte bsuperior se deben incluir declaraciones,
 
 
@@ -7,8 +6,10 @@
 llamadas a funciones
 declaracion de EVENTOS
 llamadas del DOM
-sintaxis jquery 
+sintaxis jquery
 */
-$(document).ready(function(){
 
-});
+$(document).ready(function(){
+/*  $( window ).on( "load")*/
+  $(".lyft-Inicio").fadeOut(1000);
+    });
