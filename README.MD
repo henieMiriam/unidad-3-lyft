@@ -1,3 +1,6 @@
+![logo](https://cdn-images-1.medium.com/max/945/1*3ebT5azEfTrKxANOE3BwyA.jpeg)
+
+
  # UNIDAD 3: AGILIZA TU DESARROLLO
  ## Reto replicando **LyftT**
 
@@ -27,6 +30,8 @@ Vista splash con duración de 2 a 5 segundos que redirecciona a tu vista de inic
 En la siguiente vista tenemos un formulario donde nuestro usuario puede escoger el país y debe ingresar su número de teléfono. El botón de NEXT debe estar deshabilitado hasta que se ingrese un número de 10 dígitos.
 ![registro](assets/images/login.jpg)
 
+
+
 Una vez ingresado el número de teléfono se habilita el botón y al dar click debe enviar una alerta con un código generado aleatoriamente (LAB-000) y redireccionar a la siguiente vista.
 ![codigo](assets/images/singup.jpg)
 
@@ -39,3 +44,4 @@ Ya que se ha realizado lo anterior, sólo se deberá mostrar una vista al usuari
 ![verificado](assets/images/last.png)
 
 NOTA: Todas nuestras vistas deben de contar con una manera de regresar a la vista anterior
+>Fuente Lms Laboratoria 2018

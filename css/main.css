@@ -1,0 +1,20 @@
+body{
+  background-color: silver;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  /*debe ser vh para determinar altura
+  */
+  background-image: url(../assets/images/car.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+
+}
+/*.picture-logo{
+  width: 40%;
+  height: 7vh;
+
+} no necesario si de usa la class col y se possiciona en grid*/
