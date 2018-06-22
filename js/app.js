@@ -18,17 +18,17 @@ $(document).ready(function(){
   });
   $("#verifyPhoneup").keypress(function(){
     if($(this).val().length ===10){
-     $("#btnNextup").removeAttr("disabled");
+     $("#btnNextup").removeClass("disabled");
 
-    }else if ($(this).val().length >0 && $(this).val().length <=10){
-    //  $("#btnNextin").attr("disabled");
+   }else if ($(this).val().length =0 && $(this).val().length <10){
+     $("#btnNextin").addClass("disabled");
 
     }else {
-      $("#btnNextup").attr("disabled");
-      console.log("bbbbnj");
+      $("#btnNextup").addClass("disabled");
+      //console.log("bbbbnj");
 
     }
 
   });
-   console.log("a");
+      console.log("a");
     });
