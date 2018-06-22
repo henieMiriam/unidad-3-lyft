@@ -1,10 +1,10 @@
-main{
-  background-color: silver;
+body{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+}
+main{
+  box-sizing: border-box;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   /*debe ser vh para determinar altura
   */
   background-image: url(../assets/images/car.webp);
@@ -18,3 +18,6 @@ main{
   height: 7vh;
 
 } no necesario si de usa la class col y se possiciona en grid*/
+.flags{
+  background-image: url(../assets/images/1.jpg);
+}
