@@ -21,3 +21,10 @@ main{
 .flags{
   background-image: url(../assets/images/1.jpg);
 }
+.newColor{
+  border: 1px solid red;
+  background-color: silver;
+}
+.aprove{
+  border: 1px solid blue;
+}

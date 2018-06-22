@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <title></title>
+    <title>lyft</title>
   </head>
   <body>
     <main class="container-wrapper">
@@ -33,18 +33,18 @@
                 <h4>Log in</h4>
                 <p>Join now for a free ride credit</p>
                   <select class="inputCountry collapsible-header col s3">
-                    <option value=""><i class="material-icons">phone</i></option>
-                    <option value=""><i class="material-icons">phone</i></option>
-                    <option value=""><i class="material-icons">phone</i></option>
-                    <option value=""><i class="material-icons">phone</i></option>
-                    <option value=""><i class="material-icons">phone</i></option>
+                    <option value=""><i class="material-icons">Mx</i></option>
+                    <option value=""><i class="material-icons">USA</i></option>
+                    <option value=""><i class="material-icons">Sv</i></option>
+                    <option value=""><i class="material-icons">Do</i></option>
+                    <option value=""><i class="material-icons">Uk</i></option>
                   </select>
-                  <input type="text" name="" value="52" class="col s9 offset s3"></input>
-                <br>
+                  <input id="verifyPhones" type="text" name="" value="52" class="col s9 offset s4"></input>
+                  <br>
                 <p>We'll send a text to verify your phone</p>
               </div>
               <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Next</a>
+                <a id="btnNext" href="#!" class="modal-close waves-effect waves-green btn-flat">Next</a>
               </div>
             </div>
               <a class="waves-effect waves-light btn modal-trigger waves-light btn col s4 " href="#modal2">Sing up</a>
@@ -52,19 +52,19 @@
               <div class="modal-content">
                 <h4>Sing up</h4>
                 <p>Join now for a free ride credit</p>
-                <select class="inputCountry collapsible-header col s3">
-                  <option value=""><i class="material-icons">phone</i></option>
-                  <option value=""><i class="material-icons">phone</i></option>
-                  <option value=""><i class="material-icons">phone</i></option>
-                  <option value=""><i class="material-icons">phone</i></option>
-                  <option value=""><i class="material-icons">phone</i></option>
+                <select class="inputCountry collapsible-header col s2">
+                  <option value=""><i class="material-icons"></i>Mx</option>
+                  <option value=""><i class="material-icons"></i>USA</option>
+                  <option value=""><i class="material-icons"></i>Sv</option>
+                  <option value=""><i class="material-icons"></i>Do</option>
+                  <option value=""><i class="material-icons"></i>Uk</option>
                 </select>
-                <input type="text" name="" value="52" class="col s9 offset s3"></input>
+                <input id="verifyPhoneup" type="text" name="" value="52" class="col s9 offset s4"></input>
                 <br>
                 <p>We'll send a text to verify your phone</p>
               </div>
               <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Next</a>
+                <a id="btnNextup" href="#!" class="modal-close waves-effect waves-green btn-flat">Next</a>
               </div>
             </div>
       </div>
@@ -75,6 +75,7 @@
 
     <script  src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript"src="js/app.js"></script>
   </body>

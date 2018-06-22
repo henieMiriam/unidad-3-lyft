@@ -1,54 +1,4 @@
 //en la perte bsuperior se deben incluir declaraciones,
-/*$("#formValidate").validate({
-       rules: {
-           uname: {
-               required: true,
-               minlength: 5
-           },
-           cemail: {
-               required: true,
-               email:true
-           },
-           password: {
-       required: true,
-       minlength: 5
-     },
-     cpassword: {
-       required: true,
-       minlength: 5,
-       equalTo: "#password"
-     },
-     curl: {
-               required: true,
-               url:true
-           },
-           crole:"required",
-           ccomment: {
-       required: true,
-       minlength: 15
-           },
-           cgender:"required",
-     cagree:"required",
-       },
-       //For custom messages
-       messages: {
-           uname:{
-               required: "Enter a username",
-               minlength: "Enter at least 5 characters"
-           },
-           curl: "Enter your website",
-       },
-       errorElement : 'div',
-       errorPlacement: function(error, element) {
-         var placement = $(element).data('error');
-         if (placement) {
-           $(placement).append(error)
-         } else {
-           error.insertAfter(element);
-         }
-       }
-    });*/
-
 
 
 /*esta parte siempre va al final del codigo , icluye :
@@ -63,4 +13,22 @@ $(document).ready(function(){
   $(".lyft-Inicio").fadeOut(1000);
   $(".row").fadeIn(500);
   $('.modal').modal();
+  $("userP").focusin(function(){
+    $(this).addClass("newColor");
+  });
+  $("#verifyPhoneup").keypress(function(){
+    if($(this).val().length ===10){
+     $("#btnNextup").removeAttr("disabled");
+
+    }else if ($(this).val().length >0 && $(this).val().length <=10){
+    //  $("#btnNextin").attr("disabled");
+
+    }else {
+      $("#btnNextup").attr("disabled");
+      console.log("bbbbnj");
+
+    }
+
+  });
+   console.log("a");
     });
