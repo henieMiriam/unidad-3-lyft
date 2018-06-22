@@ -19,6 +19,8 @@ $(document).ready(function(){
   $("#verifyPhoneup").keypress(function(){
     if($(this).val().length ===10){
      $("#btnNextup").removeClass("disabled");
+     swal("Good job!", "You clicked the button!", "success");
+
 
    }else if ($(this).val().length =0 && $(this).val().length <10){
      $("#btnNextin").addClass("disabled");
